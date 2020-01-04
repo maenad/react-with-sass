@@ -1,30 +1,28 @@
+#How to quickly add SASS to your React project
 
-Skip to content
-Search
-WRITE A POST46
-How to quickly add SASS to your React project
-profile Abigail Colina
-SASSreact
 When I first started experimenting with SASS, the first thing I did was look for a VS Code plug-in to add SASS automatically to my project; nevertheless, when I started working with other people that had different code editors, this became an issue.
 I took the time to check some YouTube videos and found a quick way to add SASS to your React project, no matter in which state the project is.
 
 I'm not going to make this as those people who create food recipes that tell their life story before posting the actual information, so...
 
-Here we go:
-Create your React project
+##Here we go:
 
-Open your terminal of choice and input:
+* Create your React project
 
-npm install --save-dev node-sass
+* Open your terminal of choice and input:
 
-Create a folder called Styles inside your src folder.
+   `npm install --save-dev node-sass`
 
-Inside the Styles folder create a variables.scss sheet.
+* Create a folder called *Styles* inside your `src` folder.
 
-Convert App.css to App.scss and move it inside Styles
+* Inside the *Styles* folder create a *variables.scss* sheet.
 
-Go to App.js and change App.css to App.scss. It should be at the top, on your imports.
+* Convert *App.css* to *App.scss* and move it inside *Styles*
 
-Go to App.scss and import your variables sheet (variables.scss)
+* Go to *App.js* and change *App.css* to *App.scss*. It should be at the top, on your imports.
 
-THAT'S IT!
+* Go to *App.scss* and import your variables sheet (*variables.scss*)
+
+* THAT'S IT!
+
+---
